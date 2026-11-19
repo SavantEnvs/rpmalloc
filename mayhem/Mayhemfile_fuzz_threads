@@ -1,0 +1,7 @@
+project: savantenvs/rpmalloc
+target: fuzz_threads
+
+cmds:
+  - cmd: /mayhem/fuzz_threads
+    libfuzzer: true
+    timeout: 10

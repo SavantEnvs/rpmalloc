@@ -1,0 +1,13 @@
+# Build context for mayhem/Dockerfile: the FULL repo, including .git (the grader uses the history),
+# minus local build outputs. Upstream's tracked build/ directory (its ninja generator) is source
+# and stays in. Kept beside the Dockerfile so no file is added at the upstream root.
+mayhem/out/
+/fuzz_*
+*.o
+*.a
+*.so
+ctrf-report.json
+**/__pycache__/
+.DS_Store
+*.swp
+*~

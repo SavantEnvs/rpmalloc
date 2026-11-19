@@ -1,0 +1,7 @@
+project: savantenvs/rpmalloc
+target: fuzz_override
+
+cmds:
+  - cmd: /mayhem/fuzz_override
+    libfuzzer: true
+    timeout: 10

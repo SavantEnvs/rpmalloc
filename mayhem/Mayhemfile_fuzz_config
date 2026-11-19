@@ -1,0 +1,7 @@
+project: savantenvs/rpmalloc
+target: fuzz_config
+
+cmds:
+  - cmd: /mayhem/fuzz_config
+    libfuzzer: true
+    timeout: 10
